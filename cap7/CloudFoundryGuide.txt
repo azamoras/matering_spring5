@@ -1,0 +1,9 @@
+To use   Cloud  Foundry (Pivotal Web Services)
+
+1-Firts create an account at Cloud Foundry site. Also create an Org and an space as well. 
+
+2- Install Cloud Foundry Command Line Interface (cf CLI) https://docs.run.pivotal.io/cf-cli/install-go-cli.html
+
+3-Execute cf login -a  api.run.pivotal.io
+
+4-Execute cf push APP_NAME -p APP_NAME_VERSION.jar -m 2G
