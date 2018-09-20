@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      database: CloudFoundry_9n9jpjd5_a5rgv0o0
+      host: ds263642.mlab.com
+      port: 63642
+      username: CloudFoundry_9n9jpjd5_a5rgv0o0_s7g8aq74
+      password: PkII8PoqSjjlA4JoR5a9g5I0ZNPYSvBv
+      
+  datasource:
+    url: jdbc:h2:mem:tes
+    driver-class-name: org.h2.Driver 
+    password: 
+    username: sa
+  jpa:
+    show-sql: true
+      
