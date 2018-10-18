@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: microservice-a
+  cloud:
+    config:
+      uri:
+      - http://localhost:8888
+    stream:
+      default-binder: rabbit
+  profiles:
+    active:
+    - dev
+  rabbitmq:
+    host: localhost
+    port: 5672
+  devtools:
+    restart:
+      log-condition-evaluation-delta: false
+  sleuth:
+    sampler:
+      probability: 1.0
+    web:
+      skipPattern: (^cleanup.*)
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+         - bus-refresh
+         - bus-env           
+logging:
+  path: logs 
+  file: ${logging.path}/log.log
+
+
+  
+
+
+      
+  
+  
+  
