@@ -1,0 +1,3 @@
+com\mastering\spring\cloud\cap10\data\flow\StockPriceChangeEventWithHoldings.class
+com\mastering\spring\cloud\cap10\data\flow\StockTicker.class
+com\mastering\spring\cloud\cap10\data\flow\StockPriceChangeEvent.class

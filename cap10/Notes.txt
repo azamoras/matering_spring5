@@ -1,0 +1,14 @@
+Spring Cloud Data Flow and Shell
+
+Manual Installation
+
+https://docs.spring.io/spring-cloud-dataflow/docs/current/reference/htmlsingle/#getting-started
+ 
+https://repo.spring.io/release/org/springframework/cloud/spring-cloud-dataflow-server-local/1.6.3.RELEASE/spring-cloud-dataflow-server-local-1.6.3.RELEASE.jar
+
+https://repo.spring.io/release/org/springframework/cloud/spring-cloud-dataflow-shell/1.6.3.RELEASE/spring-cloud-dataflow-shell-1.6.3.RELEASE.jar
+
+Docker-Compose
+
+https://docs.spring.io/spring-cloud-dataflow/docs/current/reference/htmlsingle/#getting-started
+
